@@ -1,0 +1,84 @@
+/* This rules apply to the entire website */ 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: 1000px;
+}
+
+.section1 {
+    background-color: #1f2937;
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    padding: 18px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    font-weight: 960;
+    font-size: 24px;
+    color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jar1 {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.jar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 300px;
+}
