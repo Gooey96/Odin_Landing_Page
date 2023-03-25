@@ -1,0 +1,97 @@
+/* This rule appyl to element in css */
+* {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+/* This css rules is for the first section of the website */
+.section1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid; /* This is for debugging */
+    background-color: #1f2937;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 120px;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 1000;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+   /* border: 1px black solid;   This is for debugging */
+    margin-bottom: 100px;
+}
+
+.jar1 {
+   /* border: 1px black solid;   This is for debugging */
+    width: 460px;
+}
+
+.hero1 {
+    font-size: 48px;
+    font-weight: 980;
+    color: #f9faf8
+}
+
+.hero2 {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.sign1 {
+    padding: 8px;
+    width: 125px;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.jar2 {
+   /* border: 1px black solid; */
+    background-color: #5A5A5A;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 110px 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
