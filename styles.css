@@ -17,7 +17,7 @@ body {
 .section1 {
     display: flex;
     flex-direction: column;
-    border: 1px black solid; /* This is for debugging */
+   /* border: 1px black solid;  This is for debugging */
     background-color: #1f2937;
 }
 
@@ -101,7 +101,7 @@ a:link {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px black solid; /* This is for debugging */
+   /* border: 1px black solid;  This is for debugging */
 }
 
 .container3 {
@@ -144,4 +144,32 @@ a:link {
     font-size: 18px;
     color: #5A5A5A;
     font-weight: 500;
+}
+/* This css rules is for the third section of the website */
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #e5e7eb;
+   /* border: 1px black solid; */
+}
+
+.container5 {
+    width: 830px;
+   /* border: 1px black solid; */
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.god {
+    text-align: right;
+    margin-right: 40px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #1f2937;
 }
