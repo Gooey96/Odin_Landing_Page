@@ -17,7 +17,6 @@ body {
 .section1 {
     display: flex;
     flex-direction: column;
-   /* border: 1px black solid;  This is for debugging */
     background-color: #1f2937;
 }
 
@@ -53,20 +52,18 @@ a:link {
 .container2 {
     display: flex;
     justify-content: center;
-    gap: 40px;
-   /* border: 1px black solid;   This is for debugging */
+    gap: 50px;
     margin-bottom: 130px;
 }
 
 .jar1 {
-   /* border: 1px black solid;   This is for debugging */
     width: 460px;
 }
 
 .hero1 {
     font-size: 48px;
     font-weight: 980;
-    color: #f9faf8
+    color: #f9faf8;
 }
 
 .hero2 {
@@ -87,7 +84,6 @@ a:link {
 }
 
 .jar2 {
-   /* border: 1px black solid; */
     background-color: #989898;
     color: #e5e7eb;
     font-size: 18px;
@@ -101,7 +97,6 @@ a:link {
     display: flex;
     flex-direction: column;
     align-items: center;
-   /* border: 1px black solid;  This is for debugging */
 }
 
 .container3 {
@@ -113,7 +108,6 @@ a:link {
 }
 
 .container4 {
-   /* border: 1px black solid;  This is for debugging */
     margin-bottom: 100px;
 }
 
@@ -129,7 +123,6 @@ a:link {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   /* border: 1px black solid;  This is for debugging */
 }
 
 .box {
@@ -152,12 +145,10 @@ a:link {
     align-items: center;
     padding: 100px 0;
     background-color: #e5e7eb;
-   /* border: 1px black solid; */
 }
 
 .container5 {
     width: 830px;
-   /* border: 1px black solid; */
 }
 
 .quote {
@@ -172,4 +163,44 @@ a:link {
     font-size: 25px;
     font-weight: bolder;
     color: #1f2937;
+}
+/* This css rules is for the fourth section of the website */
+.section4 {
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container6 {
+    width: 1000px;
+    padding: 50px 90px;
+    border-radius: 12px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+}
+
+.action {
+    color: #f9faf8;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.random {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.sign2 {
+    padding: 8px;
+    width: 125px;
+    font-weight: bold;
+    font-size: large;
+    border: 2px white solid;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #e5e7eb;
 }
